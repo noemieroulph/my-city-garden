@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap);
+*{
+	font-family: "Montserrat";
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0 auto;
+}
+
+section.top-page{
+	background: url("../images/background.jpg");
+	background-size: cover;
+	height: 90vh;
+	padding: 20px;
+
+}
+
+/*landing page*/
+
+.landing-page{
+	padding: 20px 50px;
+}
+.title {
+	color: #f5f5ef;
+	font-size: 70px;
+	font-family: allerta Stencil;
+	align-items: center;
+	text-align: center;
+	}
+
+.scroll {
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	bottom: 40px;
+}
+
+/*menu de navigation*/
+
+header.header{
+	display: flex;
+	align-items: center;
+}
+
+nav.nav{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 400px;
+	margin-left: 425px;
+}
+
+nav.nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+/*services*/
+
+.Services {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px;
+}
+
+.service-item {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.delivery-icon {
+	font-size: 70px;
+	color: #8cb496;
+	margin-top: 20px;
+}
+
+.service-detail {
+	font-weight: 550;
+	width: 150px;
+	text-align: center;
+}
+
+/*Our process*/
+
+.section-title {
+	font-size: 30px;
+	font-family: allerta Stencil;
+	font-weight: 100;
+	position: relative;
+	margin: 10px;
+}
+
+.section-title:before {
+	content: "";
+	position: absolute;
+	background-color: #508B5F;
+	width: 45px;
+	height: 5px;
+	bottom: 0;
+}
+
+.Our-process{
+	margin: 100px;
+}
+
+.garden-process {
+	min-height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.process-box {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	min-width: 250px;
+	height: 450px;
+	flex: 1;
+	margin-right: 10px;
+}
+
+.picture1 {
+	background-image:url(../images/planter.jpg);
+}
+
+.picture2 {
+	background-image:url(../images/pousser.jpg);
+}
+
+.picture3 {
+	background-image:url(../images/manger.jpg);
+}
+
+.picture4 {
+	background-image:url(../images/vendre.jpg);
+}
+
+.process-details {
+	position: absolute;
+	width: 85%;
+	bottom: 0;
+	background-color: #508B5F;
+	padding: 5px 20px;
+}
+
+.process-name {
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	color: #ffffe8;
+}
+
+/*Story*/
+
+.company{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.company .content .card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.company .content .card .left {
+	flex: 0 0 30%;
+	padding: 20px;
+	background-color: #508B5F;
+	color: #ffffe8;
+	margin-top: 10px;
+}
+
+.company .content .card.right {
+	flex: 0 0 70%;
+	
+}
+
+.company .content .card .right img{
+	height: 500px;
+	width: 350px;
+	margin-top: 10px;
+}
+
+/*pied de page*/
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 100px;
+	font-weight: 600;
+}
+
+footer a.cgv {
+	text-decoration: none;
+	color: black;
+}
